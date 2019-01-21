@@ -1,0 +1,1 @@
+!function(r,n){if(r.worldwide){var e=r.worldwide,a=[e.search,e.nav];(function(){for(var r=0;r<a.length;r++)if(a[r])return!0;return!1})()&&n.ajax({url:"//www.jd.hk/header/getData.do",dataType:"jsonp",success:function(r){if(r)for(var n=0;n<a.length;n++)a[n]&&a[n].init(r)}})}}(window,jQuery);

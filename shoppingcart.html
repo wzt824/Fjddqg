@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>购物车</title>
+	<link rel="stylesheet" href="css/shoppingcart.css">
+</head>
+<body>
+	<div id="header"></div>
+	<!-- 购物车 -->
+	<section>
+		<div class="conter">
+			<div class="guide-line">
+				<div class="side1">
+					<ul>
+						<li class="hoverlii">全部商品 1</li>
+						<li>国内普通商品</li>
+					</ul>
+				</div>
+				<div class="side2">
+					<div class="sedas">配送至：</div>
+					<div class="address">
+						<span class="defaultaddress">北京朝阳区三环以内</span>
+					</div>
+				</div>
+			</div>
+			<div class="cart-warp">
+				<ul class="cart-lul">
+					<li class="checkli">
+						<input type="checkbox" id="checkall">全选
+					</li>
+					<li>商品</li>
+				</ul>
+				<ol class="cart-ol">
+					<li>单价(元)</li>
+					<li>数量</li>
+					<li>小计(元)</li>
+					<li>操作</li>
+				</ol>
+			</div>
+			<!-- cartproduvt -->
+			<div class="cart-list">
+				<div class="shopstore">
+					<a href="javascript:;">
+						<input type="checkbox"> 海外旗舰店<i></i>
+					</a>
+				</div>
+				<div class="buypro">
+					<div class="dui">
+					   <input type="checkbox" class="subcheck">
+				    </div> 
+					<a href="javascript:;"><img src="img/cartpro1.jpg" alt=""></a>
+					<div class="introd">
+						<p><i></i>美素佳儿（Friso） 【全球购】Friso港版美素佳儿金装婴幼奶粉900g 3段1-3岁  保质期至2020年6月</p>
+					</div>
+					<div class="color">
+						颜色：3段1-3岁  保质期至2020年6月
+					</div>
+					<div class="priceone price">
+						383.00
+					</div>
+					<div class="chnagenum">
+						<span>-</span>
+						<input type="text" value="1" class="num">
+						<span>+</span>
+					</div>
+					<div class="smallsum">
+						<span class="xiaoji  subtotal">383.00</span>
+					</div>
+					<div class="movepro">
+						<p  class="delbtn">删除</p>
+						<p>移到我的关注</p>
+					</div>
+				</div>
+				
+				
+				<div class="cartfoot">
+					<div class="foot-l">
+						<ul>
+							<li>
+								<input id="btcheckall" type="checkbox" class="checkall" > 全选
+							</li>
+							<li><span class="delbtn   delbtnall">删除选中的商品</span></li>
+							<li>移到我的关注</li>
+						</ul>
+					</div>
+					<div class="foot-r">
+						<div class="choices">
+							已选择<span id="sumnum">0</span>件商品<i></i>
+						</div>
+						<div class="deltpro">
+							<p>总价(不含运费)：￥<span id="total"></span></p>
+							<p>已节省：-￥<span>0.00</span></p>
+						</div>
+						<div class="paymoney">去结算</div>
+						
+							
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<div id="footer"></div>
+
+</body>
+</html>
+<script src="js/jquery-1.8.3.min.js"></script>
+<script src="js/shoppingcart.js"></script>
+<script>
+	 $(function () {
+        $('#header').load("header.html");
+        $('#footer').load("footer.html");
+
+    })
+</script>

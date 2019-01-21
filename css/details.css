@@ -1,0 +1,497 @@
+section {
+  width: 1216px;
+  margin: 0 auto; }
+  section .w {
+    width: 1216px;
+    margin: 50px auto 10px;
+    overflow: hidden; }
+    section .w .nav-shop {
+      font-size: 12px;
+      float: right;
+      margin: 4px 5px 0 0; }
+      section .w .nav-shop .shopname {
+        float: left; }
+        section .w .nav-shop .shopname i {
+          display: inline-block;
+          width: 15px;
+          height: 14px;
+          background-image: url(../img/__sprite.png);
+          background-position: -34px -16px;
+          vertical-align: middle; }
+        section .w .nav-shop .shopname a {
+          color: black;
+          font-size: 12px;
+          line-height: 12px; }
+      section .w .nav-shop .shop-info {
+        float: left;
+        margin-left: 9px; }
+        section .w .nav-shop .shop-info span {
+          color: black;
+          font-size: 12px;
+          line-height: 12px; }
+        section .w .nav-shop .shop-info i {
+          display: inline-block;
+          width: 9px;
+          height: 9px;
+          background-image: url(../img/__sprite.png);
+          background-position: -50px -10px;
+          vertical-align: middle; }
+      section .w .nav-shop .info2 i, section .w .nav-shop .info3 i {
+        background-position: -50px 0px; }
+      section .w .nav-shop .line {
+        float: left;
+        margin: 0 15px; }
+      section .w .nav-shop .shopper {
+        float: left; }
+        section .w .nav-shop .shopper i {
+          display: inline-block;
+          width: 16px;
+          height: 16px;
+          background-image: url(../img/__sprite.png);
+          background-position: -34px 0px;
+          vertical-align: middle; }
+      section .w .nav-shop .caer {
+        float: left;
+        width: 82px;
+        height: 22px;
+        line-height: 22px;
+        font-size: 12px;
+        border: 1px solid #dedede;
+        text-align: center;
+        margin-top: -5px;
+        margin-left: 9px; }
+        section .w .nav-shop .caer span:nth-child(1) {
+          font-size: 15px; }
+  section .spare {
+    width: 100%;
+    background: black;
+    height: 3px;
+    margin-bottom: 27px; }
+  section .prodetail {
+    width: 1216px;
+    margin: 0 auto;
+    overflow: hidden; }
+    section .prodetail .prodetailleft {
+      float: left;
+      width: 452px; }
+      section .prodetail .prodetailleft .box {
+        margin-bottom: 10px;
+        border: 1px solid #eee;
+        height: 450px;
+        width: 450px;
+        background: url(../img/details1.jpg) no-repeat;
+        position: relative;
+        background-size: 450px 450px; }
+      section .prodetail .prodetailleft .center {
+        position: relative;
+        text-align: center;
+        overflow: hidden; }
+        section .prodetail .prodetailleft .center span {
+          width: 16px;
+          height: 41px;
+          position: absolute;
+          border: 1px solid #eee;
+          background: #f8f8f8;
+          cursor: pointer;
+          padding-top: 32px;
+          z-index: 77; }
+          section .prodetail .prodetailleft .center span i {
+            display: inline-block;
+            width: 0px;
+            height: 0px;
+            border: 5px dashed transparent; }
+        section .prodetail .prodetailleft .center .leftBtn {
+          left: 0; }
+          section .prodetail .prodetailleft .center .leftBtn i {
+            border-right-color: #ccc; }
+        section .prodetail .prodetailleft .center .rightBtn {
+          right: 0; }
+          section .prodetail .prodetailleft .center .rightBtn i {
+            border-left-color: #ccc; }
+        section .prodetail .prodetailleft .center .contains {
+          width: 405px;
+          height: 75px;
+          display: inline-block;
+          position: relative; }
+          section .prodetail .prodetailleft .center .contains ul {
+            width: 567px;
+            position: absolute;
+            left: 0; }
+            section .prodetail .prodetailleft .center .contains ul li {
+              float: left;
+              margin: 0 3px;
+              width: 75px;
+              height: 75px;
+              position: relative;
+              background-size: 75px 75px; }
+            section .prodetail .prodetailleft .center .contains ul .bgli {
+              width: 75px;
+              height: 75px;
+              background: white;
+              opacity: 0.4;
+              filter: alpha(opacity=40);
+              position: absolute;
+              top: 0; }
+            section .prodetail .prodetailleft .center .contains ul li:hover .bgli {
+              display: none; }
+        section .prodetail .prodetailleft .center .other {
+          margin-top: 10px;
+          width: 452px; }
+          section .prodetail .prodetailleft .center .other a {
+            font-size: 12px;
+            color: black;
+            line-height: 12px; }
+            section .prodetail .prodetailleft .center .other a i {
+              margin-right: 4px;
+              display: inline-block;
+              width: 11px;
+              height: 12px;
+              background-image: url(../img/__sprite2.png);
+              vertical-align: middle; }
+          section .prodetail .prodetailleft .center .other a:nth-of-type(1) {
+            float: left;
+            margin-right: 12px; }
+            section .prodetail .prodetailleft .center .other a:nth-of-type(1) i {
+              background-position: -51px -24px; }
+          section .prodetail .prodetailleft .center .other a:nth-of-type(2) {
+            float: left; }
+            section .prodetail .prodetailleft .center .other a:nth-of-type(2) i {
+              width: 14px;
+              height: 12px;
+              background-position: -14px -24px; }
+          section .prodetail .prodetailleft .center .other a:nth-of-type(3) {
+            float: right; }
+            section .prodetail .prodetailleft .center .other a:nth-of-type(3) i {
+              width: 12px;
+              height: 12px;
+              background-position: -29px -24px; }
+    section .prodetail .prodetailright {
+      float: left;
+      margin-left: 20px;
+      width: 420px; }
+      section .prodetail .prodetailright .line1 {
+        font-size: 12px;
+        line-height: 14px;
+        margin-bottom: 14px; }
+        section .prodetail .prodetailright .line1 img {
+          vertical-align: middle; }
+      section .prodetail .prodetailright .line2 {
+        font-size: 12px;
+        margin-bottom: 14px;
+        line-height: 14px;
+        font-size: 700; }
+      section .prodetail .prodetailright .line3 a {
+        font-size: 10px;
+        color: #dc1d20;
+        margin-bottom: 17px;
+        line-height: 14px;
+        font-size: 700; }
+      section .prodetail .prodetailright .line4 {
+        padding-left: 14px;
+        font-size: 12px;
+        line-height: 12px; }
+        section .prodetail .prodetailright .line4 .listside {
+          background: #f8f8f8;
+          padding-bottom: 18px;
+          margin-bottom: 23px; }
+        section .prodetail .prodetailright .line4 .list1 {
+          font-size: 12px;
+          color: #a0a0a0;
+          line-height: 12px;
+          letter-spacing: 15px;
+          height: 52px;
+          line-height: 52px; }
+          section .prodetail .prodetailright .line4 .list1 .price {
+            color: #dc1d20;
+            font-size: 20px;
+            line-height: 20px;
+            letter-spacing: 2px;
+            line-height: 52px; }
+        section .prodetail .prodetailright .line4 .list2 {
+          overflow: hidden;
+          margin-bottom: 18px; }
+          section .prodetail .prodetailright .line4 .list2 span {
+            float: left;
+            font-size: 12px;
+            line-height: 12px; }
+          section .prodetail .prodetailright .line4 .list2 span:nth-of-type(1) {
+            color: #a0a0a0;
+            margin-right: 15px; }
+          section .prodetail .prodetailright .line4 .list2 span:nth-of-type(2) {
+            color: black; }
+          section .prodetail .prodetailright .line4 .list2 span:nth-of-type(3) {
+            color: blue;
+            margin-left: 8px; }
+            section .prodetail .prodetailright .line4 .list2 span:nth-of-type(3) i {
+              display: inline-block;
+              width: 11px;
+              height: 11px;
+              background: url(../img/__sprite.png) 0 -34px; }
+        section .prodetail .prodetailright .line4 .list3 {
+          color: #a0a0a0;
+          margin-bottom: 20px; }
+          section .prodetail .prodetailright .line4 .list3 span:nth-of-type(2) {
+            padding: 4px 8px;
+            background: #ffdedf;
+            margin-left: 15px;
+            color: #df3033;
+            font-weight: 700;
+            border: 1px solid #df3033; }
+        section .prodetail .prodetailright .line4 .list4 {
+          font-size: 12px;
+          line-height: 12px; }
+          section .prodetail .prodetailright .line4 .list4 span:nth-of-type(1) {
+            color: #a0a0a0;
+            letter-spacing: 15px; }
+          section .prodetail .prodetailright .line4 .list4 span:nth-of-type(2) {
+            color: white;
+            padding: 2px 4px;
+            background: #df3033;
+            margin-right: 12px; }
+          section .prodetail .prodetailright .line4 .list4 span:nth-of-type(3) {
+            color: black;
+            font-size: 8px; }
+        section .prodetail .prodetailright .line4 .line5 span:nth-of-type(1) {
+          color: #a0a0a0;
+          letter-spacing: 15px; }
+        section .prodetail .prodetailright .line4 .line5 span:nth-of-type(2) {
+          color: black; }
+        section .prodetail .prodetailright .line4 .line6 {
+          margin-top: 20px;
+          margin-bottom: 38px;
+          overflow: hidden;
+          height: 70px; }
+          section .prodetail .prodetailright .line4 .line6 a {
+            color: #a0a0a0;
+            float: left;
+            margin-top: 9px;
+            margin-right: 3px;
+            height: 63px; }
+          section .prodetail .prodetailright .line4 .line6 span {
+            float: left;
+            padding: 8px;
+            border: 1px solid #cccccc;
+            margin-left: 10px;
+            margin-bottom: 3px;
+            border: 2px solid #ccc;
+            position: relative;
+            overflow: hidden; }
+            section .prodetail .prodetailright .line4 .line6 span p {
+              display: none;
+              position: absolute;
+              right: -14px;
+              color: white;
+              font-size: 2px;
+              bottom: -14px;
+              width: 25px;
+              height: 25px;
+              line-height: 25px;
+              background: #863177;
+              text-transform: rotate(45deg);
+              -webkit-transform: rotate(45deg) translateZ(0) scale(1, 1);
+              transform: rotate(45deg) translateZ(0) scale(1, 1); }
+          section .prodetail .prodetailright .line4 .line6 span:hover {
+            border-color: #863177; }
+          section .prodetail .prodetailright .line4 .line6 i {
+            float: left;
+            width: 16px;
+            height: 16px;
+            display: inline-block;
+            cursor: pointer;
+            vertical-align: middle;
+            margin: 7px 0 0 6px;
+            background: url(../img/question.png) no-repeat; }
+        section .prodetail .prodetailright .line4 .line7 {
+          clear: both;
+          margin-top: 37px;
+          overflow: hidden; }
+          section .prodetail .prodetailright .line4 .line7 input {
+            width: 40px;
+            height: 41px;
+            border: 1px solid #ccc;
+            font-size: 14px;
+            line-height: 40px;
+            float: left;
+            text-align: center; }
+          section .prodetail .prodetailright .line4 .line7 .fh {
+            float: left;
+            border: 1px solid #ccc;
+            border-left: none; }
+          section .prodetail .prodetailright .line4 .line7 span {
+            display: block;
+            color: #ccc;
+            line-height: 21px;
+            padding: 0 6px; }
+          section .prodetail .prodetailright .line4 .line7 a {
+            margin-left: 15px;
+            float: left;
+            display: inline-block;
+            width: 154px;
+            color: white;
+            line-height: 41px;
+            font-size: 12px;
+            background: #863177;
+            text-align: center;
+            font-weight: 700; }
+    section .prodetail .prodetail-other {
+      float: left;
+      width: 128px;
+      margin-left: 29px;
+      padding: 0 20px;
+      border-right: 1px solid #ccc; }
+      section .prodetail .prodetail-other .title {
+        position: relative;
+        text-align: center; }
+        section .prodetail .prodetail-other .title .conn {
+          display: inline-block;
+          font-size: 14px;
+          line-height: 14px;
+          padding: 17px 10px 12px;
+          background: white;
+          font-weight: 700; }
+        section .prodetail .prodetail-other .title .linss {
+          position: absolute;
+          top: 23px;
+          left: 6px;
+          height: 1px;
+          width: 114px;
+          background: #ccc;
+          z-index: -8; }
+      section .prodetail .prodetail-other .watchpro {
+        height: 609px;
+        position: relative;
+        overflow: hidden; }
+        section .prodetail .prodetail-other .watchpro ul {
+          height: 1218px;
+          position: absolute;
+          padding: 0 1px;
+          top: 0;
+          z-index: -999; }
+          section .prodetail .prodetail-other .watchpro ul li {
+            float: left;
+            position: relative;
+            text-align: center;
+            font-size: 12px;
+            line-height: 12px;
+            padding: 10px 0px; }
+            section .prodetail .prodetail-other .watchpro ul li a {
+              margin-bottom: 18px; }
+            section .prodetail .prodetail-other .watchpro ul li .prices {
+              position: absolute;
+              bottom: 62px;
+              left: 10px;
+              display: inline-block;
+              padding: 7px 4px;
+              background: white; }
+            section .prodetail .prodetail-other .watchpro ul li .prices:hover {
+              color: #863177; }
+            section .prodetail .prodetail-other .watchpro ul li p {
+              margin-top: 19px;
+              height: 34px;
+              line-height: 16px;
+              overflow: hidden; }
+            section .prodetail .prodetail-other .watchpro ul li p:hover {
+              color: #863177; }
+      section .prodetail .prodetail-other .Btn {
+        padding: 7px 0 17px 0; }
+      section .prodetail .prodetail-other .btnbott {
+        display: inline-block;
+        width: 28px;
+        height: 15px;
+        margin: 18px 15px;
+        background: url(../img/__sprite3.png) 0 0 no-repeat; }
+      section .prodetail .prodetail-other .btntop {
+        display: inline-block;
+        width: 28px;
+        height: 15px;
+        margin: 18px 15px;
+        background: url(../img/__sprite3.png) -30px 0 no-repeat; }
+
+.strongline {
+  width: 9px;
+  background: #666;
+  height: 100%;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 999; }
+
+.barslist {
+  height: 100%; }
+  .barslist a:hover {
+    background: #863177; }
+  .barslist a {
+    display: block;
+    width: 35px;
+    height: 35px;
+    background: #666;
+    position: relative;
+    margin-top: 1px;
+    text-align: center; }
+    .barslist a i {
+      display: inline-block;
+      width: 34px;
+      height: 35px;
+      vertical-align: middle;
+      z-index: 99; }
+    .barslist a span {
+      width: 62px;
+      height: 35px;
+      display: inline-block;
+      background: #863177;
+      color: white;
+      font-size: 12px;
+      line-height: 35px;
+      position: absolute;
+      right: -55px;
+      z-index: -9;
+      top: 0;
+      text-align: center;
+      border-radius: 3px 0 0 3px; }
+  .barslist .barstop {
+    margin-bottom: 60px;
+    position: fixed;
+    right: 9px;
+    bottom: 60%; }
+    .barslist .barstop a:nth-of-type(1) i {
+      background: url(../img/cart-icon.png) no-repeat;
+      vertical-align: middle;
+      width: 16px;
+      height: 16px;
+      margin-top: 10px; }
+    .barslist .barstop a:nth-of-type(2) i {
+      background: url(../img/toolbars.png) no-repeat -190px -100px; }
+    .barslist .barstop a:nth-of-type(3) i {
+      background: url(../img/kefu.png) no-repeat 7px 10px; }
+  .barslist .barsfoot {
+    position: fixed;
+    right: 9px;
+    bottom: 30%; }
+    .barslist .barsfoot a:nth-of-type(1) {
+      position: relative; }
+      .barslist .barsfoot a:nth-of-type(1) .ewmm {
+        position: absolute;
+        left: -159px;
+        bottom: 0;
+        text-align: center;
+        display: inline-block;
+        background: #863177;
+        padding: 15px;
+        border-radius: 6px;
+        font-size: 14px;
+        color: white;
+        display: none; }
+        .barslist .barsfoot a:nth-of-type(1) .ewmm p {
+          line-height: 15px;
+          margin-bottom: 15px; }
+    .barslist .barsfoot a:nth-of-type(1):hover .ewmm {
+      display: block;
+      transition: all 1s; }
+    .barslist .barsfoot a:nth-of-type(1) i {
+      background: url(../img/giff.gif) no-repeat;
+      margin-top: 10px;
+      margin-left: 9px; }
+    .barslist .barsfoot a:nth-of-type(2) i {
+      background: url(../img/toolbars.png) no-repeat -50px -300px; }
+    .barslist .barsfoot a:nth-of-type(3) i {
+      background: url(../img/toolbars.png) no-repeat -50px -250px; }

@@ -1,0 +1,307 @@
+body,
+p,
+ul,
+ol,
+dl,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+td,
+input,
+select,
+option,
+textarea,
+li {
+  margin: 0;
+  padding: 0; }
+
+/*body::-webkit-scrollbar{
+	display: none;
+}*/
+a {
+  text-decoration: none; }
+
+ul,
+ol,
+li {
+  list-style: none; }
+
+body {
+  width: 100%; }
+
+.head {
+  width: 990px;
+  margin: 0 auto;
+  overflow: hidden; }
+
+.logo {
+  float: left;
+  height: 60px;
+  margin: 10px 0; }
+  .logo .logoicon {
+    margin-right: 25px; }
+
+.suggest {
+  position: relative;
+  top: 52px;
+  float: right;
+  font-size: 12px; }
+  .suggest b {
+    display: inline-block;
+    width: 18px;
+    height: 14px;
+    vertical-align: middle;
+    margin-right: 5px;
+    background: url(../img/login-icon2.png) no-repeat; }
+
+.tools {
+  padding: 10px 0;
+  width: 100%;
+  text-align: center;
+  background: #fff8f0; }
+  .tools b {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+    margin-right: 5px;
+    background: url(../img/login-icon1.png) no-repeat; }
+  .tools p {
+    color: #999999;
+    font-size: 12px;
+    line-height: 12px; }
+    .tools p a {
+      color: black; }
+
+section {
+  width: 100%;
+  background: #fed8cd; }
+
+.section {
+  position: relative;
+  width: 990px;
+  height: 510px;
+  margin: 0 auto;
+  background: url(../img/login-banner.jpg) no-repeat; }
+  .section .login {
+    width: 345px;
+    background: white;
+    position: absolute;
+    right: 0;
+    top: 15px; }
+    .section .login .public {
+      margin-bottom: 24px; }
+      .section .login .public p {
+        color: #999999;
+        font-size: 12px;
+        line-height: 12px;
+        padding: 10px 0;
+        background: #fff8f0;
+        text-align: center; }
+        .section .login .public p b {
+          display: inline-block;
+          width: 16px;
+          height: 16px;
+          vertical-align: middle;
+          margin-right: 5px;
+          background: url(../img/login-icon1.png) no-repeat; }
+      .section .login .public .tit {
+        border-bottom: 1px solid #b3b3a6;
+        text-align: center; }
+        .section .login .public .tit ul {
+          display: inline-block; }
+        .section .login .public .tit ul
+li {
+          display: inline-block;
+          font-size: 18px;
+          color: #666666;
+          line-height: 18px;
+          float: left;
+          padding: 18px 18px; }
+        .section .login .public .tit span {
+          float: left;
+          font-size: 18px;
+          color: #666666;
+          line-height: 18px;
+          padding: 18px 18px; }
+    .section .login .foot {
+      padding: 10px 21px;
+      border-top: 1px solid #b3b3a6;
+      overflow: hidden; }
+      .section .login .foot ul {
+        float: left; }
+        .section .login .foot ul span {
+          margin: 0 15px;
+          font-size: 12px;
+          line-height: 12px;
+          color: #a6bfdf;
+          float: left;
+          vertical-align: middle; }
+        .section .login .foot ul li {
+          float: left;
+          font-size: 12px;
+          line-height: 12px;
+          color: #a6bfdf; }
+          .section .login .foot ul li b {
+            display: inline-block;
+            width: 19px;
+            height: 18px;
+            vertical-align: middle;
+            margin-right: 5px;
+            border: none; }
+        .section .login .foot ul li:nth-of-type(1) b {
+          background: url(../img/QQ-weixin.png) 0 0 no-repeat; }
+        .section .login .foot ul li:nth-of-type(2) b {
+          background: url(../img/QQ-weixin.png) -19px 0 no-repeat; }
+      .section .login .foot .wait {
+        color: #b61d1d;
+        font-size: 12px;
+        line-height: 12px;
+        float: right; }
+        .section .login .foot .wait b {
+          display: inline-block;
+          width: 16px;
+          height: 16px;
+          vertical-align: middle;
+          margin-right: 6px;
+          background: url(../img/pwd-icons-new.png) -104px -75px; }
+        .section .login .foot .wait a:hover {
+          cursor: pointer; }
+    .section .login #account {
+      display: block; }
+    .section .login .account {
+      margin-top: 31px;
+      padding: 0 19px;
+      display: none; }
+      .section .login .account b {
+        display: inline-block;
+        width: 38px;
+        height: 38px;
+        vertical-align: middle; }
+      .section .login .account .user {
+        position: relative;
+        margin-bottom: 20px; }
+      .section .login .account .user b {
+        background: url(../img/pwd-icons-new.png) no-repeat 0 0; }
+      .section .login .account .pw {
+        margin-bottom: 20px;
+        position: relative; }
+      .section .login .account .pw span {
+        position: absolute;
+        right: -144px;
+        top: 0px;
+        display: inline-block;
+        width: 120px;
+        height: 37px;
+        text-align: center;
+        font-size: 16px;
+        line-height: 39px; }
+        .section .login .account .pw span i {
+          display: inline-block;
+          position: absolute;
+          top: 11px;
+          left: -15px;
+          width: 0;
+          height: 0;
+          border: 7px solid transparent;
+          border-right-color: #bdbdbd;
+          display: none; }
+        .section .login .account .pw span .checkspan {
+          display: none; }
+      .section .login .account .pw input {
+        height: 36px; }
+      .section .login .account .pw b {
+        width: 37px;
+        height: 37px;
+        background: url(../img/pwd-icons-new.png) no-repeat -48px 0; }
+      .section .login .account input {
+        width: 265px;
+        height: 38px;
+        border: none;
+        outline: none;
+        border: 1px solid #bdbdbd;
+        font-size: 14px;
+        border-left: none;
+        text-indent: 10px; }
+      .section .login .account p {
+        color: #666666;
+        font-size: 12px;
+        line-height: 12px;
+        float: right;
+        margin: 23px 0; }
+      .section .login .account .submit {
+        width: 306px;
+        color: white;
+        background: #e4393c;
+        padding: 10px;
+        font-size: 16px;
+        line-height: 16px;
+        margin-bottom: 30px; }
+      .section .login .account #yzm input {
+        width: 130px;
+        border: 1px solid #bdbdbd;
+        float: left;
+        margin-right: 10px; }
+      .section .login .account #yzm #printfyzm {
+        width: 130px;
+        height: 39px;
+        display: inline-block;
+        border: 1px solid #bdbdbd;
+        margin-left: 20px;
+        margin-bottom: 20px;
+        text-align: center;
+        line-height: 39px;
+        letter-spacing: 7px; }
+  .section .tishi {
+    font-size: 14px;
+    line-height: 16px;
+    color: red;
+    margin-top: 4px; }
+  .section #resultinfo {
+    font-size: 14px;
+    line-height: 16px;
+    color: red;
+    text-align: center;
+    margin-bottom: 10px; }
+
+footer {
+  text-align: center; }
+  footer ul {
+    display: inline-block;
+    margin: 25px 0 18px; }
+    footer ul li {
+      float: left; }
+      footer ul li a {
+        font-size: 12px;
+        line-height: 12px;
+        color: #666666; }
+    footer ul span {
+      float: left;
+      color: #666666;
+      padding: 0 12px;
+      font-size: 12px;
+      line-height: 12px;
+      margin-top: 7px; }
+  footer .copy p {
+    font-size: 12px;
+    line-height: 12px;
+    color: #666666; }
+  footer .printf:hover {
+    cursor: pointer; }
+
+#clickcss {
+  color: #ce3639;
+  font-weight: 700; }
+
+#hiedspan {
+  display: block; }
+
+#showspan {
+  display: none; }
+
+.spanck {
+  display: none; }

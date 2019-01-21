@@ -1,0 +1,354 @@
+.nav {
+  width: 1216px;
+  height: 42px;
+  margin: 18px auto 0;
+  position: relative;
+  border-bottom: 1px solid black; }
+
+#navleft {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 9; }
+
+.navmenu {
+  display: none; }
+
+.hrline {
+  width: 100%;
+  height: 2px;
+  background: black; }
+
+.container {
+  width: 1215px;
+  margin: 0 auto; }
+  .container .resultssc {
+    padding: 23px 0;
+    font-size: 12px;
+    line-height: 12px; }
+    .container .resultssc a span {
+      padding: 0 9px; }
+    .container .resultssc .kinds {
+      font-weight: 700; }
+  .container .connect-center .center_1 {
+    overflow: hidden;
+    border-bottom: 1px solid #dddddd;
+    padding: 12px 0; }
+    .container .connect-center .center_1 .nameb {
+      font-size: 12px;
+      line-height: 12px;
+      padding: 20px 0 15px 13px;
+      float: left;
+      width: 97px;
+      background: #f3f3f3;
+      margin-right: 10px; }
+    .container .connect-center .center_1 .Brands {
+      float: left;
+      width: 960px;
+      border-bottom: 1px solid #dddddd; }
+      .container .connect-center .center_1 .Brands ul {
+        overflow: hidden; }
+        .container .connect-center .center_1 .Brands ul li {
+          float: left; }
+          .container .connect-center .center_1 .Brands ul li a:hover {
+            border-color: #863177; }
+          .container .connect-center .center_1 .Brands ul li .brName {
+            display: inline-block;
+            float: left;
+            border-right: 1px solid #dddddd;
+            border-top: 1px solid #dddddd;
+            position: relative;
+            height: 36px;
+            width: 119px;
+            height: 46px;
+            color: #863177; }
+            .container .connect-center .center_1 .Brands ul li .brName img {
+              padding: 5px 8px 5px 8px;
+              width: 103px;
+              height: 36px;
+              position: absolute;
+              top: 0;
+              left: 0; }
+            .container .connect-center .center_1 .Brands ul li .brName span {
+              padding: 5px 8px 5px 8px;
+              display: inline-block;
+              width: 103px;
+              font-size: 12px;
+              line-height: 36px; }
+    .container .connect-center .center_1 .otherchoice {
+      float: left;
+      margin-top: 12px; }
+      .container .connect-center .center_1 .otherchoice span {
+        padding: 0 4px;
+        height: 22px;
+        font-size: 12px;
+        line-height: 22px;
+        display: inline-block;
+        border: 1px solid #dddddd; }
+      .container .connect-center .center_1 .otherchoice span:hover {
+        border-color: #863177; }
+      .container .connect-center .center_1 .otherchoice .more:hover i {
+        background: url("../img/selflist.ele.png") no-repeat 0 -91px;
+        transition: all 0.5s; }
+      .container .connect-center .center_1 .otherchoice .more {
+        margin: 0 6px; }
+        .container .connect-center .center_1 .otherchoice .more i {
+          display: inline-block;
+          vertical-align: middle;
+          margin: 0 3px;
+          width: 7px;
+          height: 4px;
+          background: url("../img/selflist.ele.png") no-repeat 0 -74px; }
+      .container .connect-center .center_1 .otherchoice .morechoice i {
+        display: inline-block;
+        vertical-align: middle;
+        width: 8px;
+        height: 8px;
+        background: url("../img/selflist.ele.png") no-repeat 0 -128px; }
+      .container .connect-center .center_1 .otherchoice .morechoice:hover i {
+        background: url("../img/selflist.ele.png") no-repeat 0 -148px;
+        transition: all 0.5s; }
+  .container .connect-center .center_2 {
+    border: none;
+    padding: 0; }
+    .container .connect-center .center_2 .Brands {
+      border: none; }
+      .container .connect-center .center_2 .Brands ul li {
+        padding: 6px 48px 6px 0; }
+        .container .connect-center .center_2 .Brands ul li a {
+          border: none;
+          font-size: 12px;
+          line-height: 31px;
+          color: #005aa0; }
+        .container .connect-center .center_2 .Brands ul li a:hover {
+          color: #863177; }
+    .container .connect-center .center_2 .otherchoice {
+      margin-top: 10px; }
+  .container .connect-center .center_3 {
+    border-bottom: 1px solid #dddddd; }
+  .container .connect-center .highch .Brands {
+    position: relative; }
+    .container .connect-center .highch .Brands ul li {
+      font-size: 12px;
+      padding: 6px 5px;
+      margin-right: 48px;
+      color: #005aa0;
+      border: 1px solid #dddddd;
+      line-height: 12px;
+      margin-top: 12px; }
+      .container .connect-center .highch .Brands ul li i {
+        display: inline-block;
+        width: 8px;
+        height: 5px;
+        vertical-align: middle;
+        margin-left: 3px;
+        background: url("../img/chose-open.png") no-repeat; }
+    .container .connect-center .highch .Brands ul li:hover i {
+      transform: rotate(-180deg); }
+  .container .connect-center .moreinfo {
+    width: 1210px;
+    height: 139px;
+    border: 1px solid #863177;
+    display: none; }
+    .container .connect-center .moreinfo ul {
+      overflow: hidden;
+      padding-left: 20px; }
+      .container .connect-center .moreinfo ul li {
+        float: left;
+        padding-right: 40px;
+        margin-top: 32px; }
+        .container .connect-center .moreinfo ul li input {
+          vertical-align: middle;
+          outline: none;
+          border: none;
+          width: 22px;
+          height: 22px;
+          background: white; }
+        .container .connect-center .moreinfo ul li a {
+          font-size: 12px;
+          color: #005ab5;
+          line-height: 12px;
+          margin-left: 4px; }
+        .container .connect-center .moreinfo ul li a:hover {
+          color: #863177; }
+    .container .connect-center .moreinfo .morechoice {
+      margin-top: 32px;
+      margin-right: 20px;
+      padding: 0 4px;
+      height: 22px;
+      font-size: 12px;
+      line-height: 22px;
+      display: inline-block;
+      border: 1px solid #dddddd;
+      float: right; }
+      .container .connect-center .moreinfo .morechoice i {
+        display: inline-block;
+        vertical-align: middle;
+        width: 8px;
+        height: 8px;
+        background: url("../img/selflist.ele.png") no-repeat 0 -128px; }
+    .container .connect-center .moreinfo .morechoice:hover i {
+      background: url("../img/selflist.ele.png") no-repeat 0 -148px;
+      transition: all 0.5s; }
+  .container .connect-center #tabbs li:hover {
+    border-color: #863177; }
+  .container .listproduct {
+    overflow: hidden;
+    margin-top: 35px; }
+    .container .listproduct .listproduct-left {
+      float: left;
+      border: 1px solid #ccc; }
+      .container .listproduct .listproduct-left .prodetail-other {
+        width: 138px;
+        margin-left: 29px;
+        padding: 0 20px; }
+        .container .listproduct .listproduct-left .prodetail-other .title {
+          position: relative;
+          text-align: center; }
+          .container .listproduct .listproduct-left .prodetail-other .title .conn {
+            display: inline-block;
+            font-size: 14px;
+            line-height: 14px;
+            padding: 17px 10px 12px;
+            background: white;
+            font-weight: 700; }
+          .container .listproduct .listproduct-left .prodetail-other .title .linss {
+            position: absolute;
+            top: 23px;
+            left: 6px;
+            height: 1px;
+            width: 114px;
+            background: #ccc;
+            z-index: -8; }
+        .container .listproduct .listproduct-left .prodetail-other .watchpro {
+          height: 609px; }
+          .container .listproduct .listproduct-left .prodetail-other .watchpro ul {
+            z-index: -999; }
+            .container .listproduct .listproduct-left .prodetail-other .watchpro ul li {
+              float: left;
+              position: relative;
+              text-align: center;
+              font-size: 12px;
+              line-height: 12px;
+              padding: 10px 0px; }
+              .container .listproduct .listproduct-left .prodetail-other .watchpro ul li a {
+                margin-bottom: 18px; }
+              .container .listproduct .listproduct-left .prodetail-other .watchpro ul li .prices {
+                position: absolute;
+                bottom: 62px;
+                left: 10px;
+                display: inline-block;
+                padding: 7px 4px;
+                background: white; }
+              .container .listproduct .listproduct-left .prodetail-other .watchpro ul li .prices:hover {
+                color: #863177; }
+              .container .listproduct .listproduct-left .prodetail-other .watchpro ul li p {
+                margin-top: 19px;
+                height: 34px;
+                line-height: 16px;
+                overflow: hidden; }
+              .container .listproduct .listproduct-left .prodetail-other .watchpro ul li p:hover {
+                color: #863177; }
+    .container .listproduct .listproduct-right {
+      float: left;
+      margin-left: 28px; }
+      .container .listproduct .listproduct-right .productde {
+        border: 1px solid #dddddd;
+        width: 239px;
+        background: white;
+        float: left;
+        position: relative; }
+        .container .listproduct .listproduct-right .productde .eventh {
+          position: absolute;
+          right: 0; }
+          .container .listproduct .listproduct-right .productde .eventh img {
+            width: 50px;
+            height: 50px; }
+        .container .listproduct .listproduct-right .productde .listimg {
+          display: inline-block;
+          margin: 10px 19px 0; }
+          .container .listproduct .listproduct-right .productde .listimg img {
+            width: 200px;
+            height: 200px; }
+        .container .listproduct .listproduct-right .productde .lineprice {
+          overflow: hidden;
+          font-size: 12px;
+          line-height: 12px;
+          margin-top: 12px;
+          margin-left: 15px; }
+          .container .listproduct .listproduct-right .productde .lineprice .sourcep {
+            font-size: 16px;
+            color: red;
+            line-height: 16px;
+            float: left; }
+          .container .listproduct .listproduct-right .productde .lineprice .currp {
+            float: right; }
+            .container .listproduct .listproduct-right .productde .lineprice .currp i {
+              display: inline-block;
+              width: 39px;
+              height: 12px;
+              vertical-align: middle;
+              background: url("../img/plus.png") no-repeat; }
+        .container .listproduct .listproduct-right .productde .linena {
+          padding: 9px 15px 6px 15px;
+          font-size: 16px;
+          line-height: 19px;
+          height: 33px;
+          overflow: hidden; }
+          .container .listproduct .listproduct-right .productde .linena a {
+            color: black; }
+        .container .listproduct .listproduct-right .productde .assess {
+          padding-left: 15px;
+          display: block;
+          font-size: 13px;
+          line-height: 12px;
+          margin-top: 12px;
+          color: #dddddd; }
+          .container .listproduct .listproduct-right .productde .assess span {
+            font-weight: 700;
+            color: #7d256e;
+            padding-right: 15px; }
+        .container .listproduct .listproduct-right .productde .fromshop a {
+          color: #dddddd;
+          font-size: 12px;
+          line-height: 12px;
+          padding: 7px 0 7px 15px; }
+        .container .listproduct .listproduct-right .productde .act span, .container .listproduct .listproduct-right .productde .act i {
+          display: inline-block;
+          height: 18px;
+          line-height: 18px;
+          font-size: 12px;
+          color: white;
+          padding: 0 4px;
+          margin: 0 5px 9px 15px;
+          background: #d91f20;
+          border-radius: 2px; }
+        .container .listproduct .listproduct-right .productde .act i {
+          background: white;
+          color: #d91f20;
+          margin-left: 4px;
+          border: 1px solid #d91f20; }
+        .container .listproduct .listproduct-right .productde .compar {
+          padding-left: 15px;
+          margin-bottom: 20px;
+          margin-right: 15px; }
+          .container .listproduct .listproduct-right .productde .compar span:hover {
+            border-color: #9a538d; }
+          .container .listproduct .listproduct-right .productde .compar span {
+            padding: 8px;
+            border: 1px solid #dddddd;
+            font-size: 12px;
+            line-height: 12px; }
+            .container .listproduct .listproduct-right .productde .compar span i {
+              display: inline-block;
+              width: 14px;
+              height: 14px;
+              vertical-align: middle;
+              margin-right: 3px;
+              background: url(../img/care.png) no-repeat; }
+          .container .listproduct .listproduct-right .productde .compar span:nth-of-type(2) i {
+            background: url(../img/care.png) no-repeat; }
+          .container .listproduct .listproduct-right .productde .compar span:nth-of-type(3) i {
+            background: url(../img/cart-new.png) no-repeat; }
+      .container .listproduct .listproduct-right .productde:hover {
+        border-color: #9a538d; }

@@ -1,0 +1,100 @@
+body,
+p,
+ul,
+ol,
+dl,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+td,
+input,
+select,
+option,
+textarea,
+li {
+  margin: 0;
+  padding: 0; }
+
+/*body::-webkit-scrollbar{
+	display: none;
+}*/
+a {
+  text-decoration: none; }
+
+ul,
+ol,
+li {
+  list-style: none; }
+
+body {
+  width: 100%; }
+
+.footersection {
+  width: 100%;
+  background: #863177; }
+
+.footer {
+  width: 1216px;
+  background: #863177;
+  padding-top: 41px;
+  padding-bottom: 10px;
+  padding-left: 3px;
+  margin: 60px auto 0;
+  overflow: hidden; }
+  .footer .footertop {
+    overflow: hidden; }
+    .footer .footertop .logo {
+      float: left; }
+      .footer .footertop .logo i {
+        display: block;
+        width: 150px;
+        height: 59px;
+        background: url("../img/logo1.png") no-repeat; }
+    .footer .footertop .seversinfo {
+      float: left; }
+      .footer .footertop .seversinfo ul li {
+        padding-left: 64px;
+        color: white;
+        float: left;
+        width: 135px;
+        height: 122px; }
+        .footer .footertop .seversinfo ul li span {
+          font-size: 14px;
+          line-height: 14px;
+          padding-bottom: 18px;
+          display: block; }
+        .footer .footertop .seversinfo ul li a {
+          color: white;
+          font-size: 12px;
+          line-height: 22px;
+          height: 22px;
+          display: block; }
+          .footer .footertop .seversinfo ul li a em {
+            display: inline-block; }
+          .footer .footertop .seversinfo ul li a span {
+            font-size: 12px;
+            display: inline-block; }
+        .footer .footertop .seversinfo ul li a:hover {
+          text-decoration: underline; }
+        .footer .footertop .seversinfo ul li .robo i {
+          background: url("../img/bell3.png") no-repeat; }
+        .footer .footertop .seversinfo ul li .se {
+          background: url("../img/bell.png") no-repeat; }
+        .footer .footertop .seversinfo ul li i {
+          display: inline-block;
+          width: 16px;
+          height: 16px;
+          vertical-align: middle; }
+  .footer .footerbot {
+    text-align: center;
+    padding-top: 35px; }
+    .footer .footerbot p {
+      font-size: 12px;
+      line-height: 12px;
+      color: white; }
+    .footer .footerbot p:hover {
+      text-decoration: underline; }
